@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<!--
+
+<html lang="en">
+  <head>
+    <!-- Meta Data -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SparSmart</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <!-- stilark -->
+    <link
+      rel="stylesheet"
+      href="bootstrap/css/bootstrap.min.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="css/font-awesome/css/font-awesome.css"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="css/no-ui-slider/jquery.nouislider.css"
+      type="text/css"
+    />
+
+    <!-- Farver -->
+    <link rel="stylesheet" href="css/colors/green.css" id="color-skins" />
+  </head>
+  <body>
+    <!-- Start Preloader -->
+    <div id="loader">
+      <div class="spinner">
+        <div class="cube cube0"></div>
+        <div class="cube cube1"></div>
+        <div class="cube cube2"></div>
+        <div class="cube cube3"></div>
+        <div class="cube cube4"></div>
+        <div class="cube cube5"></div>
+        <div class="cube cube6"></div>
+        <div class="cube cube7"></div>
+        <div class="cube cube8"></div>
+        <div class="cube cube9"></div>
+        <div class="cube cube10"></div>
+        <div class="cube cube11"></div>
+        <div class="cube cube12"></div>
+        <div class="cube cube13"></div>
+        <div class="cube cube14"></div>
+        <div class="cube cube15"></div>
+      </div>
+    </div>
+    <!-- End Preloader -->
+
+    <!-- Start Header -->
+    <header>
+      <nav class="navbar navbar-default navbar-alt" role="navigation">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target="#main-nav"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand to-top" rel="home" href="#">
+              <img
+                src="img/assets/logo-white.png"
+                alt="Visual"
+                class="logo-big"
+              />
+              <img
+                src="img/assets/logo-dark.png"
+                alt="Visual"
+                class="logo-small"
+              />
+            </a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="main-nav">
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a class="to-top"> Hjem </a>
+              </li>
+              <li class="to-section">
+                <a href="#about"> Hvad kan vi tilbyde dig? </a>
+              </li>
+              <li class="to-section">
+                <a href="#team"> Rabatkoder </a>
+              </li>
+              <li class="to-section">
+                <a href="#portfolio"> Engangsarbejde </a>
+              </li>
+              <li class="to-section">
+                <a href="#contact"> Kontakt til os </a>
+              </li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+      </nav>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Home Revolution Slider Parallax Section -->
+    <section id="home-revolution-slider">
+      <div class="hero">
+        <div class="tp-banner-container">
+          <div class="tp-banner">
+            <ul>
+              <!-- SLIDE 1 -->
+              <li
+                data-transition="fade"
+                data-slotamount="7"
+                data-masterspeed="2000"
+                data-thumb="img/backgrounds/bg.jpg"
+                data-delay="10000"
+                data-saveperformance="on"
+                data-title="We Are Visual"
+              >
+                <img
+                  src="img/backgrounds/bg.jpg"
+                  alt="slidebg1"
+                  data-bgposition="center top"
+                  data-bgfit="cover"
+                  data-bgrepeat="no-repeat"
+                />
+
+                <!-- Home Heading -->
+                <div
+                  class="tp-caption sft"
+                  data-x="center"
+                  data-y="260"
+                  data-speed="1200"
+                  data-start="1100"
+                  data-easing="Power3.easeInOut"
+                  data-splitin="none"
+                  data-splitout="none"
+                  data-elementdelay="0.1"
+                  data-endelementdelay="0.1"
+                  data-endspeed="300"
+                  style="
+                    z-index: 4;
+                    max-width: auto;
+                    max-height: auto;
+                    white-space: normal;
+                  "
+                >
+                  <h2 class="home-heading op-1">
+                    SparSmart skal hjæpe dig, der er på SU!
+                  </h2>
+                </div>
+                <!-- Home Subheading -->
+                <div
+                  class="tp-caption home-subheading sft"
+                  data-x="center"
+                  data-y="360"
+                  data-speed="1200"
+                  data-start="1350"
+                  data-easing="Power3.easeInOut"
+                  data-splitin="none"
+                  data-splitout="none"
+                  data-elementdelay="0.1"
+                  data-endelementdelay="0.1"
+                  data-endspeed="300"
+                  style="
+                    z-index: 4;
+                    max-width: auto;
+                    max-height: auto;
+                    white-space: normal;
+                  "
+                ></div>
+                <!-- Home Button -->
+                <div
+                  class="tp-caption home-button sft fadeout"
+                  data-x="center"
+                  data-y="400"
+                  data-speed="1200"
+                  data-start="1550"
+                  data-easing="Power3.easeInOut"
+                  data-splitin="none"
+                  data-splitout="none"
+                  data-elementdelay="0.1"
+                  data-endelementdelay="0.1"
+                  data-endspeed="300"
+                  style="
+                    z-index: 4;
+                    max-width: auto;
+                    max-height: auto;
+                    white-space: normal;
+                  "
+                >
+                  <div class="op-1">
+                    <a href="#features" class="btn btn-primary btn-scroll">
+                      Klik for at læse mere om vores koncept
+                    </a>
+                  </div>
+                </div>
+              </li>
+
+                <!-- Home Subheading -->
+                <div
+                  class="tp-caption home-subheading sft fadeout"
+                  data-x="center"
+                  data-y="360"
+                  data-speed="1200"
+                  data-start="1350"
+                  data-easing="Power3.easeInOut"
+                  data-splitin="none"
+                  data-splitout="none"
+                  data-elementdelay="0.1"
+                  data-endelementdelay="0.1"
+                  data-endspeed="300"
+                  style="
+                    z-index: 4;
+                    max-width: auto;
+                    max-height: auto;
+                    white-space: normal;
+                  "
+                >
+                  <div class="op-2">
+                    Beautiful & Elegant One page Parallax Template
+                  </div>
+                </div>
+                <!-- Home Button -->
+                <div
+                  class="tp-caption home-button sft fadeout"
+                  data-x="center"
+                  data-y="400"
+                  data-speed="1200"
+                  data-start="1550"
+                  data-easing="Power3.easeInOut"
+                  data-splitin="none"
+                  data-splitout="none"
+                  data-elementdelay="0.1"
+                  data-endelementdelay="0.1"
+                  data-endspeed="300"
+                  style="
+                    z-index: 4;
+                    max-width: auto;
+                    max-height: auto;
+                    white-space: normal;
+                  "
+                >
+                  <div class="op-2">
+                    <a href="#about" class="btn btn-primary btn-scroll">
+                      WHAT WE DO
+                    </a>
+                  </div>
+                </div>
+              </li>
+
+              
+
+                <!-- Home Heading -->
+                <div
+                  class="tp-caption sft"
+                  data-x="center"
+                  data-y="260"
+                  data-speed="1200"
+                  data-start="1100"
+                  data-easing="Power3.easeInOut"
+                  data-splitin="none"
+                  data-splitout="none"
+                  data-elementdelay="0.1"
+                  data-endelementdelay="0.1"
+                  data-endspeed="300"
+                  style="
+                    z-index: 4;
+                    max-width: auto;
+                    max-height: auto;
+                    white-space: normal;
+                  "
+                ></div>
+                <!-- Hjem Button -->
+                <div
+                  class="tp-caption home-button sft fadeout"
+                  data-x="center"
+                  data-y="400"
+                  data-speed="1200"
+                  data-start="1550"
+                  data-easing="Power3.easeInOut"
+                  data-splitin="none"
+                  data-splitout="none"
+                  data-elementdelay="0.1"
+                  data-endelementdelay="0.1"
+                  data-endspeed="300"
+                  style="
+                    z-index: 4;
+                    max-width: auto;
+                    max-height: auto;
+                    white-space: normal;
+                  "
+                >
+                  <div class="op-3">
+                    <a href="#team" class="btn btn-primary btn-scroll">
+                      MEET THE TEAM
+                    </a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="tp-bannertimer"></div>
+          </div>
+          <div class="home-bottom">
+            <div class="container text-center">
+              <div class="move bounce">
+                <a href="#features" class="ion-ios-arrow-down btn-scroll"> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Home Revolution Slider Parallax Section -->
+
+    <div class="site-wrapper content">
+      <!-- Start Features Section -->
+      <section id="features">
+        <div class="container">
+          <div class="col-md-12 text-center wow fadeInUp">
+            <h3 class="section-title">Hvem er vi?</h3>
+            <p class="subheading">
+              Vi er to studerende på SU, som gerne vil hjælpe andre til at spare
+              penge og få en
+              <span class="highlight"> hurtig engangsindtægt til SU'en.</span>
+            </p>
+          </div>
+          <div class="row features-row wow fadeInUp">
+            <div class="col-md-4 col-sm-12 feature-column">
+              <div class="feature-icon">
+                <i class="icon-eyeglasses size-2x highlight"></i>
+                <i class="icon-eyeglasses back-icon"></i>
+              </div>
+              <div class="feature-info">
+                <h4>Alle vores rabatkoder er gratis!</h4>
+                <p class="feature-description">
+               Vi er et team på 5 mand der hver dag leder efter rabatkoder til jer for at spare penge!
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-12 feature-column">
+              <div class="feature-icon">
+                <i class="icon-lock-open size-2x highlight"></i>
+                <i class="icon-lock-open back-icon"></i>
+              </div>
+              <div class="feature-info">
+                <h4>Virker en rabatkode ikke?.</h4>
+                <p class="feature-description">
+                  Hvis rabatkoderne ikke virker, står vi altid klar til at hjælpe jer! Skriv blot til vores kundeservice
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-12 feature-column">
+              <div class="feature-icon">
+                <i class="icon-energy size-2x highlight"></i>
+                <i class="icon-energy back-icon"></i>
+              </div>
+              <div class="feature-info">
+                <h4>Vi opdatere koder og arbejde ugeligt!</h4>
+                <p class="feature-description">
+                 Vi har gjort det til vores mission at hjælpe alle der er på SU i Danmark med at spare eller tjene penge! 
+                </p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+      <!--End Features Section -->
+
+      <!-- Start About Section -->
+      <section id="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 text-left about-text">
+              <h3 class="wow fadeInUp">Vores histoire</h3>
+              <p class="wow fadeInUp">
+                obs. Skal udfyldes med tekst 
+              </p>
+     
+              </p>
+            </div>
+            <div class="col-md-6 wow fadeInUp about-text">
+              <!--    <div class="video-container">
+                                <iframe src="http://player.vimeo.com/video/115919099?title=0&amp;byline=0&amp;portrait=0&amp;color=fff" allowfullscreen></iframe>
+                            </div> -->
+              <h3 class="wow fadeInUp">322.000 personer er på SU!</h3>
+              <div class="progress-bars">
+                <p>Statestik om SU - find på ide </p>
+                <div class="progress" data-percent="90%">
+                  <div class="progress-bar">
+                    <span class="progress-bar-tooltip">90%</span>
+                  </div>
+                </div>
+                <p>Su ide indsæt </p>
+                <div class="progress" data-percent="80%">
+                  <div class="progress-bar">
+                    <span class="progress-bar-tooltip">80%</span>
+                  </div>
+                </div>
+                <p>Su ide, indsæt</p>
+                <div class="progress" data-percent="70%">
+                  <div class="progress-bar">
+                    <span class="progress-bar-tooltip">70%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End About Section -->
+
+      <!-- Start Fun Facts Section -->
+      <section id="fun-facts" class="parallax-section-5">
+        <div class="container">
+          <div class="col-md-12 text-center white wow fadeInUp">
+            <h3 class="section-title">Fakta </h3>
+            <p class="subheading">
+           
+            </p>
+          </div>
+          <div class="counter-row row text-center wow fadeInUp">
+            <div class="col-md-3 col-sm-6 fact-container">
+              <div class="fact">
+                <span class="counter highlight">500</span>
+                <h4>Vi har allerede 500 bruger der benytter sig at vores hjemmeside</h4>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 fact-container">
+              <div class="fact">
+                <span class="counter highlight">385</span>
+                <h4>ideer til andet tekst</h4>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 fact-container">
+              <div class="fact">
+                <h2 class="counter highlight">65892</h2>
+                <h4>ideer til andet tekst</h4>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 fact-container">
+              <div class="fact">
+                <span class="counter highlight">25</span>
+                <h4>ideer til andet tekst</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Fun Facts Section -->
+
+      <!-- Start Team Section -->
+      <section id="team">
+        <div class="container">
+          <div class="col-md-12 text-center wow fadeInUp">
+            <h3 class="section-title">Rabatkoder.</h3>
+            <p class="subheading">
+              Rabatkoder som giver dig % ved brug. Alle rabatkoder bliver tjekket inden de bliver tilføjet, ved fejl kontakt vores kundeservice.
+            </p>
+          </div>
+          
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Team Section -->
+
+   
+
+      <!-- Engangsarbejde side med opslag -->
+      <section id="portfolio" style="position: relative">
+        <div class="separator"></div>
+        <div class="container-fluid">
+          <div class="col-md-12 text-center">
+            <h3 class="section-title wow fadeInUp">Engangsarbejde vi kan tilbyde.</h3>
+            <p class="subheading wow fadeInUp">
+              Liste over arbejde, samt kontakt til arbejdsgiveren.
+            </p>Forsøgsperson.dk
+            </a>
+            <!-- Portfolio AJAX load more button will be functional only on your server. Upload to your server when testing. -->
+          </div>
+        </div>
+      </section>
+      <!-- End Portfolio Section -->
+
+     
+
+    
+
+      <!-- Start Call to Action 1 -->
+      <section id="call-to-action-1">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h3 class="wow fadeInUp">FEEL LIKE WORKING WITH US?</h3>
+              <p class="wow fadeInUp">
+                Vivamus a placerat ante. Duis vulputate nibh sit amet augue
+                vehicula, mattis ni<br />
+                viverra purus tristique. Proin commodo eu ipsum.
+              </p>
+              <a href="#contact" class="btn btn-primary btn-scroll">
+                Get in Touch
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Call to Action 1 -->
+
+      <
+      <!-- Start Contact Form Section -->
+      <section id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h3 class="section-title wow fadeInUp">Vi leder altid efter nye rabatkoder og arbejdsgiver. Kontakt os gerne hvis du har rabatkoder eller er en arbejdsgiver der tilbyder engangsarbejde!</h3>
+              <p class="subheading wow fadeInUp">Udfyld kort vores kontaktformular og vi kontakter dig inden for 7 arbejdsdage!</p>
+            </div>
+            <div class="col-md-7 wow fadeInUp">
+              <div id="message"></div>
+              <!-- Contact Form will be functional only on your server. Upload to your server when testing. -->
+              <form
+                method="post"
+                action="php/contact-form.php.htm"
+                name="contactform"
+                id="contactform"
+              >
+                <fieldset>
+                  <input name="name" type="text" id="name" placeholder="Name" />
+                  <input
+                    name="email"
+                    type="text"
+                    id="email"
+                    placeholder="Email"
+                  />
+                  <input
+                    name="subject"
+                    type="text"
+                    id="subject"
+                    placeholder="Subject"
+                  />
+                </fieldset>
+                <fieldset>
+                  <textarea
+                    name="comments"
+                    cols="40"
+                    rows="3"
+                    id="comments"
+                    placeholder="Message"
+                  ></textarea>
+                </fieldset>
+                <input
+                  type="submit"
+                  class="submit"
+                  id="submit"
+                  value="Send Message"
+                />
+              </form>
+            </div>
+      
+              <h4>Kontakt os via kontaktformular eller på telefon.</h4>
+              <address>
+               
+                  <strong> Telefon </strong>
+                </abbr>
+                : (+45) 31 40 19 74 <br />
+
+                  <strong>Email </strong>
+                </abbr>
+                : Sparsmart@gmail.com
+              </address>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Start Footer 1 -->
+      <footer id="footer">
+        <!-- End Footer Widgets -->
+
+        <div class="footer-copyright">
+
+                  >
+                </p>
+                <ul class="social-icons subheading">
+                  <li>
+                    <a href="#">
+                      <i class="icon ion-social-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="icon ion-social-facebook"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="icon ion-social-googleplus"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="icon ion-social-instagram-outline"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="icon ion-social-pinterest"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="icon ion-social-skype"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="icon ion-social-linkedin"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="icon ion-social-dropbox"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="icon ion-social-vimeo"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="icon ion-social-youtube"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Footer Copyright -->
+      </footer>
+      <!-- End Footer 1 -->
+
+      <!-- Start Back To Top -->
+      <a id="back-to-top">
+        <i class="icon ion-chevron-up"></i>
+      </a>
+      <!-- End Back To Top -->
+    </div>
+    <!-- End Site Wrapper -->
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/plugins/jquery.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/plugins/moderniz.min.js"></script>
+    <script
+      type="text/javascript"
+      src="js/plugins/smoothscroll.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/no-ui-slider/jquery.nouislider.all.min.js"
+    ></script>
+    <script type="text/javascript" src="js/plugins/revslider.min.js"></script>
+    <script type="text/javascript" src="js/plugins/waypoints.min.js"></script>
+    <script type="text/javascript" src="js/plugins/parallax.min.js"></script>
+    <script type="text/javascript" src="js/plugins/easign1.3.min.js"></script>
+    <script
+      type="text/javascript"
+      src="js/plugins/cubeportfolio.min.js"
+    ></script>
+    <script type="text/javascript" src="js/plugins/owlcarousel.min.js"></script>
+    <script type="text/javascript" src="js/plugins/tweetie.min.js"></script>
+    <script
+      type="text/javascript"
+      src="http://maps.googleapis.com/maps/api/js"
+    ></script>
+    <script type="text/javascript" src="js/plugins/gmap3.min.js"></script>
+    <script type="text/javascript" src="js/plugins/wow.min.js"></script>
+    <script type="text/javascript" src="js/plugins/counterup.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+  </body>
+</html>
